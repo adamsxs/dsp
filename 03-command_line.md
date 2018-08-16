@@ -20,30 +20,29 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-* print working directory:`pwd`
-* create directory: `mkdir [options] <file_path>/<directory_name>`
-* delete directory: `rmdir [options] <file_path>/<directory_name>`
-* create file with `touch` command: `touch [options] <file_name>`
-* delete file: `rm [-i] <file_path>/<file_name>`
-* rename file: `mv <original_path/original_name> <original_path/new_name>`
-* list hidden files: `ls -a <path>`
-* copy file from one directory to another: `cp [options] <source> <destination>`
-* display manual/documentation page for a command: `man <command>` or 'man -k <search_term>`
-* grep:
+* print working directory:`$ pwd`
+* create directory: `$ mkdir [options] <file_path>/<directory_name>`
+* delete directory: `$ rmdir [options] <file_path>/<directory_name>`
+* create file with `touch` command: `$ touch [options] <file_name>`
+* delete file: `$ rm [-i] <file_path>/<file_name>`
+* rename file: `$ mv <original_path/original_name> <original_path/new_name>`
+* list hidden files: `$ ls -a <path>`
+* copy file from one directory to another: `$ cp [options] <source> <destination>`
+* display manual/documentation page for a command: `$ man <command>` or `$ man -k <search_term>`
+* search in a file for expressions: `$ egrep [options] <expression(s)_to_search_for> <file>`
+
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`      list all files in current directory, standard constraints 
+`ls -a`   list all files, including hidden files
+`ls -l`   list all files with long listing
+`ls -lh`  list all files with long listing, with unit suffixes for file sizes 
+`ls -lah` list all files, including hidden files, with long listings and unit suffixes for file size 
+`ls -t`   list all files sorted by most recent time modified
+`ls -Glp` list all files with long listing, and colorized directory names followed by a `/`  character 
 
 ---
 
@@ -51,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls -r`  displays all files in reverse order. Ex: to display files ordered by most recently accessed: `$ ls -ur`
+`ls -R`  displays all subdirectories as well
+`ls -GF` flags filenames with colorized output
+`ls -S`  list files sorted by size
+`ls -1`  list all files with one output per line
 
 ---
 
