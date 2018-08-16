@@ -20,8 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+* print working directory:`pwd`
+* create directory: `mkdir [options] <file_path>/<directory_name>`
+* delete directory: `rmdir [options] <file_path>/<directory_name>`
+* create file with `touch` command: `touch [options] <file_name>`
+* delete file: `rm [-i] <file_path>/<file_name>`
+* rename file: `mv <original_path/original_name> <original_path/new_name>`
+* list hidden files: `ls -a <path>`
+* copy file from one directory to another: `cp [options] <source> <destination>`
+* display manual/documentation page for a command: `man <command>` or 'man -k <search_term>`
+* grep:
 ---
 
 ### Q2.  List Files in Unix   
