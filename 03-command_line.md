@@ -36,13 +36,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`      list all files in current directory, standard constraints 
-`ls -a`   list all files, including hidden files
-`ls -l`   list all files with long listing
-`ls -lh`  list all files with long listing, with unit suffixes for file sizes 
-`ls -lah` list all files, including hidden files, with long listings and unit suffixes for file size 
-`ls -t`   list all files sorted by most recent time modified
-`ls -Glp` list all files with long listing, and colorized directory names followed by a `/`  character 
+* `ls`      list all files in current directory, standard constraints
+* `ls -a`   list all files, including hidden files
+* `ls -l`   list all files with long listing
+* `ls -lh`  list all files with long listing, with unit suffixes for file sizes
+* `ls -lah` list all files, including hidden files, with long listings and unit suffixes for file size
+* `ls -t`   list all files sorted by most recent time modified
+* `ls -Glp` list all files with long listing, and colorized directory names followed by a `/`  character 
 
 ---
 
@@ -50,11 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-`ls -r`  displays all files in reverse order. Ex: to display files ordered by most recently accessed: `$ ls -ur`
-`ls -R`  displays all subdirectories as well
-`ls -GF` flags filenames with colorized output
-`ls -S`  list files sorted by size
-`ls -1`  list all files with one output per line
+* `ls -r`  displays all files in reverse order. Ex: to display files ordered by most recently accessed: `$ ls -ur`
+* `ls -R`  displays all subdirectories as well
+* `ls -GF` flags filenames with colorized output
+* `ls -S`  list files sorted by size
+* `ls -1`  list all files with one output per line
 
 ---
 
