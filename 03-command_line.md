@@ -62,7 +62,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` is a tool for enacting an operation, action, or utility with a list of inputs. Example:  
 
- 
+`ls *.txt | xargs -n1 ./make_dated_copy.sh`  
 
+The script `make_dated_copy.sh` makes a copy of an input file with the current date as a prefix to the input file name. In the example above, I find all the text files in the current directory and pipe the file names to the next part of the command. `xargs` accepts that list and sends the files, one at a time, to be operated on once (`-n1`) by the `make_dated_copy.sh` script. `xargs` will run the script on the input until it has exhaused the list.
