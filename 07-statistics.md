@@ -102,7 +102,8 @@ From there, P(A|B) is effectively 0.003/0.011, or approximately 0.27.
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian and frequentist statistics are similar in that both purport methods that can be used to test hypothesis and establish confidence intervals. In Bayesian statistics, more importance is given to the prior distribution of the data being considered. In frequentist statistics, more though is given to establishing a pre-experiment hypothesis and that the experimental design should consider the steps needed to successfully realize this hypothesis over repeated trials. The two schools of thought differ on their interpretation of what "probability" means: for frequentists, it is the frequency with which an unknown has a certain value. For Bayesians, it describes the random variate aspect of the value of an unknown.  
+The result is that Bayesian experiments produce a probability distribution that describes the main veriables in an experiment, whereas a frequentist approach would yield a true or false outcome about the pre-hypothesis prediction about those variables.
 
 ---
 
